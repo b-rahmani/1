@@ -1,0 +1,96 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
+      "css": "instagram",
+      "code": 61805,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "531359183f9fedb14b23666f1308591f",
+      "css": "telegram",
+      "code": 62150,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "2342c9255e31850fcf5f89799cb8420f",
+      "css": "google-plus-circle",
+      "code": 62131,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e9107949dd6c9e8ab2b29ae07156e38c",
+      "css": "linkedin",
+      "code": 61665,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "51fb22f9ff9d7f60c95ef31e4c59502d",
+      "css": "comment",
+      "code": 62636,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "f3dc2d6d8fe9cf9ebff84dc260888cdf",
+      "css": "heart-empty",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ff16079eb4be12c49bf3014d2322acdd",
+      "css": "github-circled",
+      "code": 59393,
+      "src": "zocial"
+    },
+    {
+      "uid": "531bc468eecbb8867d822f1c11f1e039",
+      "css": "calendar",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "815503841e980c848f55e0271deacead",
+      "css": "link",
+      "code": 59395,
+      "src": "entypo"
+    },
+    {
+      "uid": "9x8p16w516pn1b19chr85japkedporm7",
+      "css": "th",
+      "code": 59396,
+      "src": "typicons"
+    },
+    {
+      "uid": "fa10777b2d88cc64cd6e4f26ef0e5264",
+      "css": "terminal",
+      "code": 61728,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ed42a2d393650165b737216b5fe85c40",
+      "css": "volume-control-phone",
+      "code": 62112,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e787e2e226c505e7b7532df2b05b6b37",
+      "css": "cart",
+      "code": 59394,
+      "src": "custom_icons",
+      "selected": false,
+      "svg": {
+        "path": "M742.5 745.7L742.5 745.7C675.3 739 615.4 788.2 608.7 855.5 602.1 922.7 651.3 982.6 718.5 989.2 726.5 990 734.5 990 742.5 989.2 809.8 982.6 858.9 922.7 852.3 855.5 846.6 797.3 800.6 751.4 742.5 745.7ZM992 284.4C986 275.4 975.8 270 964.9 270.3H830.8V267.9C830.8 125.6 715.4 10.2 573.1 10.2 430.8 10.2 315.4 125.5 315.4 267.9 315.4 267.9 315.4 267.9 315.4 267.9V270.3H215.3L181.2 114.9C177.4 99.1 163.3 88 147.1 87.9H0V158.5H118.8L228.3 660.9C231.2 677.4 245.6 689.4 262.4 689.2H877.8C894.1 689.1 908.2 677.9 912 662.1L999 313.8C1001.6 303.4 999 292.5 992 284.4ZM573.1 455C469.7 455 386 371.2 386 267.9S469.7 80.8 573.1 80.8 760.2 164.6 760.2 267.9C759.5 371 676.1 454.4 573.1 455ZM544.8 271.4L480.1 205.5 429.5 255 518.9 345.6C525.5 352.2 534.3 356 543.6 356.2 552.8 356.6 561.8 353.2 568.4 346.7L716.6 206.7 668.4 154.9 544.8 271.4Z",
+        "width": 1000
+      },
+      "search": [
+        "cart"
+      ]
+    }
+  ]
+}

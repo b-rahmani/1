@@ -1,0 +1,28 @@
+{
+  "name": "webtemplate",
+  "version": "1.0.0",
+  "description": "responsive website with html,css,scss,js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "live": "live-server",
+    "sass": "node-sass scss --output css -w",
+    "lss": "npm-run-all -p live sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "1"
+  },
+  "keywords": [
+    "responsive",
+    "template"
+  ],
+  "author": "behnam rahmani",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
