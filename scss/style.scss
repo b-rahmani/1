@@ -97,6 +97,9 @@
 .icon-comment:before {
   content: "\f4ac";
 } /* '' */
+.icon-down-open:before {
+  content: "\e806";
+}
 /* fontell icon for project*/
 
 /* persian font vazir*/
@@ -137,12 +140,14 @@ body {
 }
 
 nav {
-  background-color: rgb(126, 123, 110);
-  height: 70px;
+  background-color: rgb(255, 255, 255);
+  height: 90px;
   position: fixed;
   top: 0;
   right: 0;
   width: 100vw;
+  align-items: center;
+  display: flex;
 }
 
 .row {
@@ -150,20 +155,12 @@ nav {
   flex-wrap: wrap;
   width: 100%;
 }
-.row-fa {
-  @extend .row;
-  flex-direction: row;
-}
+
 .row80 {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
   margin: 0 auto;
-}
-.row80-fa {
-  @extend .row80;
-
-  height: 100%;
 }
 
 .navbar {
@@ -195,13 +192,15 @@ p.logo {
     align-items: baseline;
 
     & > a {
-      color: cornsilk;
+      color: rgb(8, 8, 8);
     }
 
     &:last-of-type > div {
       width: 200px;
       height: 29px;
       display: inline-block;
+      border-radius: 10px;
+      box-shadow: 2px 5px 10px darkolivegreen;
 
       input[class="searchbar"] {
         width: 100%;
@@ -214,17 +213,115 @@ p.logo {
     }
   }
 }
+/* discription */
+.discription {
+  background-color: cyan;
+  height: calc(100vh - 90px);
+  position: relative;
+  top: 90px;
+
+  & > .row80 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0 10%;
+
+    & > h1 {
+      font-size: 5rem;
+      margin-top: 1em;
+    }
+
+    & > p {
+      font-size: 2rem;
+      margin-top: 4em;
+    }
+    & > ul {
+      display: flex;
+      justify-content: space-between;
+      width: 300px;
+      margin-top: 4rem;
+
+      li {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+
+        &:nth-of-type(1) {
+          background-color: white;
+          a {
+            color: black;
+          }
+        }
+        &:nth-of-type(2) {
+          background-color: #0070c0;
+          a {
+            color: white;
+          }
+        }
+        &:nth-of-type(3) {
+          background-color: #dd6d40;
+          a {
+            color: rgb(255, 249, 255);
+          }
+        }
+        &:nth-of-type(4) {
+          background-color: #2aa9d6;
+          a {
+            color: white;
+          }
+        }
+        &:nth-of-type(5) {
+          background-color: #dd241d;
+          a {
+            color: white;
+          }
+        }
+        & > a {
+          font-size: 2rem;
+        }
+      }
+    }
+    & > .down {
+      & + a {
+        font-size: 3rem;
+        color: black;
+        animation: down 2s linear infinite;
+      }
+    }
+  }
+}
+
 @keyframes shake {
   0% {
-    transform: translateX(0);
+    transform: scale(1);
   }
   50% {
-    transform: translateX(-20px);
+    transform: scale(1.2);
   }
   100% {
-    transform: translateX(0);
+    transform: scale(1);
   }
 }
 .shake {
-  animation: shake 3s linear 1;
+  animation: shake 1s linear 1;
+}
+
+@keyframes down {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
 }

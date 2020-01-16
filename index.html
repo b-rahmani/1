@@ -9,33 +9,56 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav>
-      <div class="row80-fa">
-        <div class="navbar">
-          <a href="index.html"><p class="logo">worklib</p></a>
-          <ul class="navMenu">
-            <li>
-              <a href="#">خانه</a>
-            </li>
-            <li>
-              <a href="#">درباره ما</a>
-            </li>
-            <li>
-              <a href="#">مهارت ها</a>
-            </li>
-            <li>
-              <a href="#">درباره ی ما</a>
-            </li>
-            <li>
-              <div>
-                <input class="searchbar" type="search" placeholder="جستجو..." />
-              </div>
-              <span class="icon-search"></span>
-            </li>
-          </ul>
+    <section>
+      <nav>
+        <div class="row80">
+          <div class="navbar">
+            <a href="index.html"><p class="logo">worklib</p></a>
+            <ul class="navMenu">
+              <li>
+                <a href="#">خانه</a>
+              </li>
+              <li>
+                <a href="#">درباره ما</a>
+              </li>
+              <li>
+                <a href="#">مهارت ها</a>
+              </li>
+              <li>
+                <a href="#">درباره ی ما</a>
+              </li>
+              <li>
+                <div>
+                  <input
+                    class="searchbar"
+                    type="search"
+                    placeholder="جستجو..."
+                    onfocus="shaked()"
+                    onblur="reset()"
+                  />
+                </div>
+                <span class="icon-search"></span>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+    </section>
+    <section class="discription">
+      <div class="row80">
+        <h1>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم.</h1>
+        <p>اهل فراوان اهل متون و این شصت از این شناخت و گرافیک.</p>
+        <ul>
+          <li><a href="#" class="icon-github-circled"></a></li>
+          <li><a href="#" class="icon-linkedin"></a></li>
+          <li><a href="#" class="icon-instagram"></a></li>
+          <li><a href="#" class="icon-telegram"></a></li>
+          <li><a href="#" class="icon-google-plus-circle"></a></li>
+        </ul>
+        <p class="down">به سمت پایین حرکت کنید</p>
+        <a href=""><p class="icon-down-open"></p></a>
       </div>
-    </nav>
+    </section>
     <script src="js/custom.js"></script>
   </body>
 </html>
