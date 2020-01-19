@@ -27,7 +27,6 @@
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
-  speak: none;
 
   display: inline-block;
   text-decoration: inherit;
@@ -143,6 +142,7 @@ nav {
   background-color: rgb(255, 255, 255);
   height: 90px;
   position: fixed;
+  z-index: 10;
   top: 0;
   right: 0;
   width: 100vw;
@@ -216,9 +216,8 @@ p.logo {
 /* discription */
 .discription {
   background-color: cyan;
-  height: calc(100vh - 90px);
-  position: relative;
-  top: 90px;
+
+  margin-top: 90px;
 
   & > .row80 {
     align-items: center;
@@ -226,6 +225,7 @@ p.logo {
     text-align: center;
     flex-direction: column;
     padding: 0 10%;
+    height: calc(100vh - 90px);
 
     & > h1 {
       font-size: 5rem;
@@ -291,11 +291,56 @@ p.logo {
       }
     }
     & > .down {
-      & + a {
-        font-size: 3rem;
+      font-size: 2rem;
+      margin-top: 2em;
+    }
+
+    & > a {
+      display: flex;
+      justify-content: center;
+
+      position: relative;
+      width: 50px;
+      height: 50px;
+
+      & > p {
+        position: absolute;
+        top: -10px;
+        font-size: 3.5rem;
         color: black;
         animation: down 2s linear infinite;
       }
+    }
+  }
+}
+
+section.skill {
+  .row80 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+    .carousel {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: yellow;
+    }
+    .left {
+      background-color: tomato;
+      font-size: 10rem;
+      
+    }
+    .right {
+      background-color: cyan;
+      font-size: 10rem;
+      
+    }
+    .content {
+      background-color: greenyellow;
+      width: 792px;
+      height: 227px;
+      padding: 3rem 5rem;
     }
   }
 }
@@ -321,7 +366,7 @@ p.logo {
     opacity: 1;
   }
   100% {
-    transform: translateY(30px);
+    transform: translateY(35px);
     opacity: 0;
   }
 }
